@@ -43,3 +43,17 @@ function helloWorld(){
   console.log(str)
 }
 ```
+*********
+## **Education and courses:**
+
+1. CS50 video course
+2. Coursera: algorithms part 1 
+3. JavaScript https://learn.javascript.ru/
+4. Rubyrush
+
+**********
+## **Languages:**
+
+- English level - A2
+- Deutch level - C2
+- Russian language - Native
