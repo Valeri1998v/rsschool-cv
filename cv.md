@@ -57,3 +57,12 @@ function helloWorld(){
 - English level - A2
 - Deutch level - C2
 - Russian language - Native
+
+************
+## **Softskills:**
+
+- can problem solving
+- have a sharp memory
+- have self-Motivation and independence
+- have perseverance
+
