@@ -26,4 +26,20 @@ In addition, there are many resources that allow you to do this. I know that my 
 zeal, hard work, and discipline will help me achieve my goal.
 
 *********
+## **Skills and Proficienty:**
++ ![Javascript](https://img.shields.io/badge/Javascript-black?style=for-the-badge&logo=javascript)
++ ![Git](https://img.shields.io/badge/Git-black?style=for-the-badge&logo=github) ![VS code](https://img.shields.io/badge/VScode-dodgerblue?style=for-the-badge&logo=vscode)
++ ![Heroku](https://img.shields.io/badge/Heroku-blueviolet?style=for-the-badge&logo=heroku) ![Docker](https://img.shields.io/badge/Docker-gray?style=for-the-badge&logo=docker)
++ ![HTML](https://img.shields.io/badge/Html-orange?style=for-the-badge&logo=HTML5) ![css](https://img.shields.io/badge/css-blue?style=for-the-badge&logo=css3)
++ ![MySQL](https://img.shields.io/badge/SQl-gold?style=for-the-badge&logo=MySQL) ![Redis](https://img.shields.io/badge/Redis-gainsboro?style=for-the-badge&logo=redis)
++ ![Ruby](https://img.shields.io/badge/Ruby-darkred?style=for-the-badge&logo=ruby) ![Rails](https://img.shields.io/badge/Rails-darkred?style=for-the-badge&logo=rubyonrails)
 
+********
+## **Code example:**
+**KATA from codewars:**
+```
+function helloWorld(){
+  let str = "Hello World!"
+  console.log(str)
+}
+```
