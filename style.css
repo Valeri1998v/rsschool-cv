@@ -26,3 +26,18 @@ h6 {
     padding: 2px; 
     font: bold italic 180% serif
 }
+
+body {
+    background: rgb(209, 209, 199);
+    color: black; 
+    background-attachment: fixed; 
+    background-repeat: repeat-x; 
+    overflow: auto;
+}
+
+#left { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 45%;
+ }
