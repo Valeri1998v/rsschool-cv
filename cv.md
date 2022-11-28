@@ -59,10 +59,13 @@ function helloWorld(){
 - Russian language - Native
 
 ************
-## **Softskills:**
+## **Soft skills and social experience:**
 
-- can problem solving
-- have a sharp memory
-- have self-Motivation and independence
-- have perseverance
+- Creativity
+- Team managment
+- Responsibility
+- Desire to learn
+- Teamwork
+- Sociability
+- Participations of legal disputes
 
