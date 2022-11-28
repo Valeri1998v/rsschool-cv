@@ -2,3 +2,27 @@ img{
     width: 400px;
     height: 420px;
 }
+
+h3 {
+    align-content: center;
+    line-height: revert;
+    color: black; /* Цвет текста */
+    height: 30px;
+    padding: 5px; /* Поля вокруг текста */
+    font: bold italic 180% serif
+}
+
+h4 {
+    line-height: revert;
+    color: black; 
+    padding: 5px; 
+    font: bold italic 200% serif
+}
+
+h6 {
+    align-content: center;
+    line-height: revert;
+    color: black; 
+    padding: 2px; 
+    font: bold italic 180% serif
+}
