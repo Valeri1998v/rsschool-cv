@@ -16,6 +16,13 @@ h3 {
     font: bold italic 180% serif
 }
 
+p {
+    align-content: center;
+    line-height: revert;
+    color: black; 
+    font: Times New Roman, 100% sans-serif;
+}
+
 h4 {
     line-height: revert;
     color: black; 
