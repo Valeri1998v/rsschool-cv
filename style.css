@@ -51,37 +51,46 @@ article {
     padding: 10px;
     width: 60%;
     height: 5%; /* only for demonstration, should be removed */
- }
+  }
 
-.left {
+.left{
     top: auto;
     float: left;
     width: 40%;
     height: 20px;
 }
-  
+
 section::after {
     content: "";
     display: block;
     clear: both;
-}
+  }
 
-span {
+.yellow {
     background-color: yellow;
     padding-left: 7px;
     padding-right: 7px;
     padding-top: 3px;
     padding-bottom: 3px;
-}
+  }
 
 footer {
     background-color: #777;
-    padding: 10px;
-    text-align: center;
+    padding: 5px;
+    text-align: justify-all;
     color: white;
-}
+  }
 
 .footer-img {
-    width: 40px;
-    height: 20px;
+    width: 180px;
+    height: 50px;
+}
+
+.author {
+    letter-spacing: .2rem;
+}
+
+span.transparent{
+    color:#777;
+    padding: 0% 12%;
 }
