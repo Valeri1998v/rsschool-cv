@@ -94,3 +94,13 @@ span.transparent{
     color:#777;
     padding: 0% 12%;
 }
+
+pre code {
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 25px;
+    padding-right: 60%;
+    width: 10%;
+  }
