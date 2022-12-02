@@ -16,13 +16,6 @@ h3 {
     font: bold italic 180% serif
 }
 
-p {
-    align-content: center;
-    line-height: revert;
-    color: black; 
-    font: Times New Roman, 100% sans-serif;
-}
-
 h4 {
     line-height: revert;
     color: black; 
@@ -35,7 +28,14 @@ h6 {
     line-height: revert;
     color: black; 
     padding: 2px; 
-    font: bold italic 180% serif
+    font: bold italic 150% serif
+}
+
+p {
+    align-content: center;
+    line-height: revert;
+    color: black; 
+    font: Times New Roman, 100% sans-serif;
 }
 
 body {
@@ -46,24 +46,42 @@ body {
     overflow: auto;
 }
 
-#left { 
-    position: absolute; 
-    left: 0; 
-    top: 0; 
-    width: 45%;
+article {
+    float: right;
+    padding: 10px;
+    width: 60%;
+    height: 5%; /* only for demonstration, should be removed */
  }
 
-#right { 
-    position: absolute; 
-    right: 0;
-    top: 0;
-    width: 55%;
- } 
+.left {
+    top: auto;
+    float: left;
+    width: 40%;
+    height: 20px;
+}
+  
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
- span {
+span {
     background-color: yellow;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.footer-img {
+    width: 40px;
+    height: 20px;
+}
