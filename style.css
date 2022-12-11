@@ -3,6 +3,10 @@ img{
     height: 420px;
 }
 
+h1 {
+    color: rgb(209, 209, 199);
+}
+
 h3 {
     align-content: center;
     line-height: revert;
@@ -24,7 +28,14 @@ h6 {
     line-height: revert;
     color: black; 
     padding: 2px; 
-    font: bold italic 180% serif
+    font: bold italic 150% serif
+}
+
+p {
+    align-content: center;
+    line-height: revert;
+    color: black; 
+    font: Times New Roman, 100% sans-serif;
 }
 
 body {
@@ -35,24 +46,61 @@ body {
     overflow: auto;
 }
 
-#left { 
-    position: absolute; 
-    left: 0; 
-    top: 0; 
-    width: 45%;
- }
+article {
+    float: right;
+    padding: 10px;
+    width: 60%;
+    height: 5%; /* only for demonstration, should be removed */
+  }
 
-#right { 
-    position: absolute; 
-    right: 0;
-    top: 0;
-    width: 55%;
- } 
+.left{
+    top: auto;
+    float: left;
+    width: 40%;
+    height: 20px;
+}
 
- span {
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.yellow {
     background-color: yellow;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+footer {
+    background-color: #777;
+    padding: 5px;
+    text-align: justify-all;
+    color: white;
+  }
+
+.footer-img {
+    width: 180px;
+    height: 50px;
+}
+
+.author {
+    letter-spacing: .2rem;
+}
+
+span.transparent{
+    color:#777;
+    padding: 0% 12%;
+}
+
+pre code {
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 25px;
+    padding-right: 60%;
+    width: 10%;
   }
